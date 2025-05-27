@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: #23272f;
+}
+#toolbar {
+  background: #262626;
+  color: #fff;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+}
+#address {
+  flex: 1;
+  margin: 0 10px;
+  padding: 5px;
+}
+#tabs {
+  background: #1a1a1a;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+}
+#tabs button {
+  background: #444;
+  color: #fff;
+  border: none;
+  margin-right: 5px;
+  padding: 5px 10px;
+  border-radius: 4px 4px 0 0;
+  cursor: pointer;
+}
+#content iframe {
+  width: 100%;
+  height: 80vh;
+  border: none;
+}
