@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Firefox Mimic</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<div id="browser">
+    <div id="toolbar">
+        <button id="back">⟨</button>
+        <button id="forward">⟩</button>
+        <button id="refresh">⟳</button>
+        <input id="address" type="text" value="https://example.com" />
+        <button id="go">Go</button>
+    </div>
+    <div id="tabs">
+        <button id="new-tab">+</button>
+        <!-- Tabs will be dynamically added here -->
+    </div>
+    <div id="content">
+        <!-- Iframes for tab content will be added here -->
+    </div>
+</div>
+<script src="{{ url_for('static', filename='main.js') }}"></script>
+</body>
+</html>
